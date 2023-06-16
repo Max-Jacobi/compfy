@@ -69,6 +69,7 @@ libxdg-basedir
 pcre2
 pixman
 uthash
+xcb-util
 xcb-util-image
 xcb-util-renderutil
 gcc (make)
@@ -84,7 +85,7 @@ ninja (make)
 
 ### Configuration
 
-Compfy stores its default configuration at `/etc/xdg/compfy.conf.example`(may vary depending on OS). 
+Compfy stores its default configuration at `/etc/xdg/compfy.conf.example`(may vary depending on OS).
 The default configuration provides almost all the options you will ever need, some commented out.
 
 It is reccomended you store your personal configuration at `~/.config/compfy.conf` or `~/.config/compfy/compfy.conf`
